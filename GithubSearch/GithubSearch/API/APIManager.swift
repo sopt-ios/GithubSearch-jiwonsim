@@ -6,4 +6,10 @@
 //  Copyright © 2019 심지원. All rights reserved.
 //
 
-import Foundation
+protocol APIManager {}
+
+extension APIManager {
+    static func url(_ path: String) -> String {
+        return "https://api.github.com/" + path
+    }
+}

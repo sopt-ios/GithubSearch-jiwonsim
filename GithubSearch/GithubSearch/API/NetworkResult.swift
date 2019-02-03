@@ -6,4 +6,7 @@
 //  Copyright © 2019 심지원. All rights reserved.
 //
 
-import Foundation
+enum NetworkResult<T> {
+    case success(T)
+    case error(Error)
+}
