@@ -15,6 +15,8 @@ class SearchTVCell: UITableViewCell {
     @IBOutlet weak var repoCntLb: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
+        userImg.circleImageView()
+
         // Initialization code
     }
 
