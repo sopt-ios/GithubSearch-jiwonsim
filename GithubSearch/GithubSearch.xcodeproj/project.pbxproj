@@ -23,6 +23,8 @@
 		E0BB52552206A969002C2058 /* ResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB52542206A969002C2058 /* ResponseObject.swift */; };
 		E0BB52572206AF6C002C2058 /* SearchObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB52562206AF6C002C2058 /* SearchObject.swift */; };
 		E0BB52592206BA58002C2058 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB52582206BA58002C2058 /* Extensions.swift */; };
+		E0BB525D2206C6B1002C2058 /* SingleUserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB525C2206C6B1002C2058 /* SingleUserObject.swift */; };
+		E0BB525F2206CA34002C2058 /* SingleUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB525E2206CA34002C2058 /* SingleUserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		E0BB52542206A969002C2058 /* ResponseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseObject.swift; sourceTree = "<group>"; };
 		E0BB52562206AF6C002C2058 /* SearchObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchObject.swift; sourceTree = "<group>"; };
 		E0BB52582206BA58002C2058 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E0BB525C2206C6B1002C2058 /* SingleUserObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleUserObject.swift; sourceTree = "<group>"; };
+		E0BB525E2206CA34002C2058 /* SingleUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleUserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 				E0BB52492206A472002C2058 /* NetworkResult.swift */,
 				E0BB524B2206A487002C2058 /* Requestable.swift */,
 				E0BB524D2206A4C8002C2058 /* SearchService.swift */,
+				E0BB525E2206CA34002C2058 /* SingleUserService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				E0BB52522206A963002C2058 /* ResponseArray.swift */,
 				E0BB52542206A969002C2058 /* ResponseObject.swift */,
 				E0BB52562206AF6C002C2058 /* SearchObject.swift */,
+				E0BB525C2206C6B1002C2058 /* SingleUserObject.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -288,11 +294,13 @@
 				E0BB52552206A969002C2058 /* ResponseObject.swift in Sources */,
 				E0BB52532206A963002C2058 /* ResponseArray.swift in Sources */,
 				E0BB524A2206A472002C2058 /* NetworkResult.swift in Sources */,
+				E0BB525D2206C6B1002C2058 /* SingleUserObject.swift in Sources */,
 				E0BB52512206A71A002C2058 /* SearchItem.swift in Sources */,
 				E0BB52442206A20A002C2058 /* SearchTVCell.swift in Sources */,
 				E0BB52572206AF6C002C2058 /* SearchObject.swift in Sources */,
 				E0BB52592206BA58002C2058 /* Extensions.swift in Sources */,
 				E0BB524C2206A487002C2058 /* Requestable.swift in Sources */,
+				E0BB525F2206CA34002C2058 /* SingleUserService.swift in Sources */,
 				E0BB524E2206A4C8002C2058 /* SearchService.swift in Sources */,
 				E0BB523422069F17002C2058 /* ViewController.swift in Sources */,
 				E0BB523222069F17002C2058 /* AppDelegate.swift in Sources */,
