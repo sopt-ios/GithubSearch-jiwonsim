@@ -25,6 +25,8 @@
 		E0BB52592206BA58002C2058 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB52582206BA58002C2058 /* Extensions.swift */; };
 		E0BB525D2206C6B1002C2058 /* SingleUserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB525C2206C6B1002C2058 /* SingleUserObject.swift */; };
 		E0BB525F2206CA34002C2058 /* SingleUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB525E2206CA34002C2058 /* SingleUserService.swift */; };
+		E0BB526522075DD5002C2058 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0BB526422075DD5002C2058 /* LoadingCell.xib */; };
+		E0BB5267220D3C41002C2058 /* SpinnerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB5266220D3C41002C2058 /* SpinnerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		E0BB52582206BA58002C2058 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E0BB525C2206C6B1002C2058 /* SingleUserObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleUserObject.swift; sourceTree = "<group>"; };
 		E0BB525E2206CA34002C2058 /* SingleUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleUserService.swift; sourceTree = "<group>"; };
+		E0BB526422075DD5002C2058 /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		E0BB5266220D3C41002C2058 /* SpinnerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				E0BB52582206BA58002C2058 /* Extensions.swift */,
+				E0BB526422075DD5002C2058 /* LoadingCell.xib */,
 			);
 			path = Function;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				E0BB52432206A20A002C2058 /* SearchTVCell.swift */,
+				E0BB5266220D3C41002C2058 /* SpinnerCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,6 +232,7 @@
 			files = (
 				E0BB523C22069F1A002C2058 /* LaunchScreen.storyboard in Resources */,
 				E0BB523922069F1A002C2058 /* Assets.xcassets in Resources */,
+				E0BB526522075DD5002C2058 /* LoadingCell.xib in Resources */,
 				E0BB523722069F17002C2058 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +300,7 @@
 				E0BB52482206A461002C2058 /* APIManager.swift in Sources */,
 				E0BB52552206A969002C2058 /* ResponseObject.swift in Sources */,
 				E0BB52532206A963002C2058 /* ResponseArray.swift in Sources */,
+				E0BB5267220D3C41002C2058 /* SpinnerCell.swift in Sources */,
 				E0BB524A2206A472002C2058 /* NetworkResult.swift in Sources */,
 				E0BB525D2206C6B1002C2058 /* SingleUserObject.swift in Sources */,
 				E0BB52512206A71A002C2058 /* SearchItem.swift in Sources */,

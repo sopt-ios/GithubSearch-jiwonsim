@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
-
+    
     @IBOutlet weak var searchTF: UITextField!
     @IBOutlet weak var searchTV: UITableView!
     
@@ -17,6 +17,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     var tempList = [SearchItem]()
     var limit = 20
     var page = 0
+    
+    var spinner : UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -105,13 +107,19 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
                     
                     tempList.append(userList[index])
                     index = index + 1
-
+                    
+                    self.spinner = UIActivityIndicatorView.init(style: .gray)
+                    self.spinner.startAnimating()
+                    self.spinner.frame = CGRect(x: CGFloat(0), y: CGFloat(0), width: tableView.bounds.width, height: CGFloat(44))
+                    self.searchTV.tableFooterView = spinner
                 }
                 self.perform(#selector(loadTable), with: nil, afterDelay: 2.0)
             }
         }
     }
     @objc func loadTable() {
+        self.spinner.stopAnimating()
+        self.spinner.isHidden = true
         self.searchTV.reloadData()
     }
 }
